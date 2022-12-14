@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--normalize between every browser -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">  
+
+    <!-- font awesome icons   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <title>DevJo Portfolio Website</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/minion.jpg" alt="Jo's logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home">Home</a></li>                             
+                <li class="nav__item"><a href="#services">My Services</a></li>                             
+                <li class="nav__item"><a href="#about">About me</a></li>                             
+                <li class="nav__item"><a href="#work">My work</a></li>                             
+            </ul>
+        </nav>
+    </header>
+
+    <!-- introduction -->
+    <section class="introduction" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong> Jo Joey</strong> 
+        </h1>
+        <p class="section-intro-p"></p>
+        <img src="img/MinionOneEye.jpg" alt="picture of minion one eye">
+    </section>
+
+    <!-- my Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__class section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Web3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Rerum ad dolore porro numquam, 
+                     doloribus dolor deleniti eligendi excepturi quis iusto perferendis et molestias 
+                     est earum atque! Necessitatibus maiores inventore porro.</p>
+            </div>
+            
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Rerum ad dolore porro numquam, 
+                    doloribus dolor deleniti eligendi excepturi quis iusto perferendis et molestias 
+                    est earum atque! Necessitatibus maiores inventore porro.</p>
+            </div>
+            
+            <div class="service">
+                <h3>Backend</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Rerum ad dolore porro numquam, 
+                    doloribus dolor deleniti eligendi excepturi quis iusto perferendis et molestias 
+                    est earum atque! Necessitatibus maiores inventore porro.</p>
+            </div>
+         </div> 
+         <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- about me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section-about-p"></p>
+
+        <div class="about-me-body">
+            <p></p>
+            <p></p>
+        </div>
+
+        <img src="img/minioninwater.jpg" alt="minion in water">
+    </section>
+
+    <section class="my-work" id="work">
+        <h2 class="section-title">My Work</h2>
+        <p class="section-subtitle"></p>
+
+        <div class="portfolio">
+            <a href="#" class="portfolio-item">
+                <img src="img/portfolio-01.jpg" alt="project 1 image" class="portfolio-img">
+            </a>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <a href="mailto:hello@jo.dev" class="footer-link">hello@jo.dev</a>
+        <ul class="social-list">
+            <li class="social-list-item"><a class="social-list-link" href="https://www.linkedin.com/">a</a></li>
+            <li class="social-list-item"><a class="social-list-link" href="https://www.twitter.com/">b</a></li>
+            <li class="social-list-item"><a class="social-list-link" href="https://www.github.com/">c</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
